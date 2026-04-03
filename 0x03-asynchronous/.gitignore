@@ -1,1 +1,7 @@
 *util.dart
+
+# Dart
+.dart_tool/
+.packages
+pubspec.lock
+build/
