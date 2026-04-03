@@ -1,4 +1,5 @@
 void main() {
-  var str = 'Holberton School';
-  print('$str$str$str\n${str.substring(0, 9)}\n');
+	String str = "Holberton School";
+	print(str * 3);
+	print(str.substring(0, 9)); print('');
 }
