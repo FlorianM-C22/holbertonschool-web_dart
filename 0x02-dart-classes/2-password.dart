@@ -1,8 +1,6 @@
 class Password {
   String password = "";
 
-  Password({required this.password});
-
   bool isValid() {
     return password.length >= 8 &&
         password.length <= 16 &&
